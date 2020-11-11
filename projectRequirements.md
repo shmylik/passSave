@@ -8,5 +8,6 @@
 7. поддержка аккаунта пользователя
 
 program name: pass_save
- 
-
+# Программные инструменты
+1. web framework - django
+2. database - sqlite

@@ -1,0 +1,15 @@
+{% if password_list %}
+    <ul>
+        {% for password in password_list %}
+            <li><a href="http://{{ password.site }} " > 
+                login: {{ password.login }}
+                password: {{ password.password }}
+                
+
+            </a></li>
+        {% endfor %}
+    </ul>
+
+{% else %}
+    <p>Паролей нет.</p> 
+{% endif %}      
